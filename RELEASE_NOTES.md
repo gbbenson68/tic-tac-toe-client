@@ -1,6 +1,10 @@
 RELEASE NOTES
 -------------
 
+##### 2019-05-31
+- Moved change password submit button back to end of form
+- changed 'Games Played' to 'Games Started' throughout code
+
 ##### 2019-05-30
 - Removed "Game Over" and "Game Not Over" indicators, as they seemed to confuse more than help.
 

@@ -112,7 +112,7 @@ const onSignOutSuccess = responseData => {
   $('.results-info').addClass('hidden')
   $('.norm').addClass('hidden')
   $('form.results').html('')
-  $('#games-played').text('')
+  $('#games-started').text('')
   $('#games-over').text('')
 
   // Show sign-up/sign-in forms
@@ -184,7 +184,7 @@ const onIndexSuccess = responseData => {
 
   // Append list items to unordered list
   const gamesArr = responseData.games
-  const gamesPlayed = gamesArr.length
+  const gamesStarted = gamesArr.length
   let gamesOpen = 0
   $('form.results').html('')
   let addClass = ''
@@ -205,7 +205,7 @@ const onIndexSuccess = responseData => {
     }
   }
 
-  $('#games-played').text(`Games Played: ${gamesPlayed}`)
+  $('#games-started').text(`Games Started: ${gamesStarted}`)
   $('#games-over').text(`Games Open: ${gamesOpen}`)
 }
 
