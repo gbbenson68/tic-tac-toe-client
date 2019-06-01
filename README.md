@@ -28,7 +28,7 @@ I knew immediately that I wanted to have tha ability to hide and show different 
 After generating the HTML, I starting writing the linkages to the AJAX API (created by General Assembly) and all of the other JavaScript code to operate the game and manipulate the DOM. As CSS is a weakness of mine, I decided the the fewer the frills, the better. I plan to add more animation and visual effects once I become more knowledgeable and proficient in CSS.
 
 ### logMessage()
-One of the things that I wanted to implement was a logging mechanism that worked in a local/development environment only, so that the logging would be visible to the user, but visible for me, as I am like seeing as much information as possible to help me resolve any problems. In my experience, the more *useful* logging an application can generate, the better. There is only one ```console.log()``` contained in the code, and it's wrapped in an ```if``` statement.
+One of the things that I wanted to implement was a logging mechanism that worked in a local/development environment only, so that the logging would not appear in a production environment, but would be visible for me while developing, as I like seeing as much information as possible to help me resolve any problems. In my experience, the more *useful* logging an application can generate, the better. There is only one ```console.log()``` contained in the code, and it's wrapped in an ```if``` statement.
 
 Wireframes
 ----------
