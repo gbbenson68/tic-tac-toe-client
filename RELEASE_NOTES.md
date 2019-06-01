@@ -1,6 +1,9 @@
 RELEASE NOTES
 -------------
 
+##### 2019-06-01
+- Changed message board and scoreboard styles to allow better response-ability.
+
 ##### 2019-05-31
 - Moved change password submit button back to end of form
 - changed 'Games Played' to 'Games Started' throughout code

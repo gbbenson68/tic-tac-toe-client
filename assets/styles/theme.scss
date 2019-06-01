@@ -63,9 +63,8 @@ hr {
 
 .message-board {
   background: $light-grey-blue;
-  border: 1px solid $navy-blue;
-  height: 3 * $font-size;
   max-width: $max-width;
+  min-height: 3 * $font-size;
 }
 
 .others {
@@ -89,11 +88,11 @@ hr {
 
 .scoreboard {
   background: $light-grey-blue;
-  border: 1px solid $navy-blue;
+  border-top: 1px solid $navy-blue;
   display: flex;
-  height: 3.8 * $font-size;
   justify-content: space-around;
   max-width: $max-width;
+  min-height: 3 * $font-size;
 }
 
 .hidden {
